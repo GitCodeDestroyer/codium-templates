@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: "RobotoLight";
+}
+
+/*** HEADER ***/
+
+a {
+	transition: all .3s;
+}
+
+.header {
+	line-height: 75px;
+	color: #ADE94F;
+	padding: 0 20px;
+	height: 75px;
+	background: #222;
+}
+
+.header .logo {
+	text-transform: uppercase;
+}
+
+.header .logo a {
+	color: #fff;
+}
+
+.header .logo a h1 {
+	font-family: "RobotoRegular";
+	text-align: center;
+}
+
+.header .logo a:hover {
+	color: #ADE94F;
+}
+
+.header .logo span {
+	font-size: 15px;
+	color: #ADE94F;
+}
+
+/*** MAIN ***/
+
+.main {
+	padding: 0 5%;
+}
+
+.main .search-img-bottom {
+	height: 75px;
+	width: 100%;
+	left: 0;
+	margin-top: 175px;
+	background: rgba(0,0,0,.7);
+	position: absolute;
+	box-shadow: 0 1px 20px rgba(0,0,0,.5);
+}
+
+.main .search-img-bottom h1 {
+	color: #fff;
+	line-height: 75px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.main ul li {
+	border: 1px solid #ccc;
+	width: 46%;
+	float: left;
+	margin: 25px 2%;
+}
+
+.main ul li h2 {
+	text-align: center;
+	line-height: 50px;
+}
+
+.main ul li img {
+	width: 80%;
+	margin: 0 10%;
+} 
+
+.main ul li .content {
+	padding: 10px;
+}
+
+.main ul li .content a {
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 750px) {
+	.main ul li {
+		width: 95%;
+	}
+	.main .search-img-bottom h1 {
+		font-size: 25px;
+	}
+}
